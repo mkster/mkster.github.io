@@ -1,13 +1,13 @@
 # Site settings
-title: Clean Blog
+title: Max Kriester
 header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
+description: "Personal Projects by Max Kriester"
+baseurl: ""
 url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+twitter_username: 
+github_username:  mkster
+facebook_username:  
 
 # Build settings
 markdown: kramdown
