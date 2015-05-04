@@ -1,17 +1,18 @@
 # Site settings
 title: Max's Blog
 header-img: img/post-bg-04.jpg
-email: your-email@yourdomain.com
+email: max.kriester+githubio@gmail.com
 description: "Now launching!"
 baseurl: ""
 url: "https://mkster.github.io/"
 twitter_username: 
 github_username:  mkster
-facebook_username:  
+facebook_username:
+donation_link:  "https://mkster.github.io/"
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md", "Gemfile", "Gemfile.lock", "unused_pages"]
