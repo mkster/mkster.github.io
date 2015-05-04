@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "A Quick Introduction to Lua Modding Planetoid Pioneers for Beginners"
-subtitle:   ""
+title:      "Creating a Grenade"
+subtitle:   "A Quick Introduction to Lua Modding Planetoid Pioneers for Beginners"
 date:       2015-05-04 12:00:00
 author:     "Max"
 header-img: "img/moddingPP/header.png"
