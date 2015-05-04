@@ -56,7 +56,7 @@ If you want to change something about an object you can open it in the editor (F
 
 <br>
 
-<img style="margin: 0 auto !important; width: 400px; " src="{{ site.baseurl }}/img/moddingPP/5.png">
+<img style="display: block; margin: 0 auto !important; width: 400px; " src="{{ site.baseurl }}/img/moddingPP/5.png">
 
 In addition to that you have different widows like the help window (F1), the sound window (F4) where you can select sounds and set the volume of the game or the blueprint library (F6) where you select blueprints and spawn or edit them.
 
