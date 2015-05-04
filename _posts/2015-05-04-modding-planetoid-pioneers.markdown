@@ -26,11 +26,7 @@ A lot. Every blueprint in Planetoid Pioneers (these objects you can build or spa
     <img src="{{ site.baseurl }}/img/moddingPP/3.png" alt="Vehicles">
 </a>
 
-
-![alt text]("")
-![alt text]("img/moddingPP/2.png")
-![alt text]("img/moddingPP/3.png")
-
+![]({{ site.url }}/img/moddingPP/1.png) ![]({{ site.url }}/img/moddingPP/2.png)![]({{ site.url }}/img/moddingPP/3.png)
 
 That means you can change a blueprint and make them obey to your code! Of course you can also create entirely new weapons, Pioneers, vehicles, scenarios, enemies with AI and whatever else you can think of with the power of Data Realms’ Crush2D at your fingertips.
 
@@ -81,6 +77,7 @@ __One more tip before the coding starts!__ Everytime you change the code of your
 
 To save that time, change your scene for faster testing. To do so save the scene under a different name in the scene editor, open the activity editor and remove all the code there (which places you in the ship at the start every time). Now zoom out and place your Pioneer (he is somewhere in the sky) at the ground and put the grenade next to him so you can pick it up instantly. Remember to save the scene again.
 
+
 ##Lua Scripting for Crush2D
 If you skipped the previous part you can download the blueprint you should have now here.
 First set the interpreter in Project -> Lua Interpreter -> Crush2D. This will give you code snippets for the all the C2D functions.
@@ -95,20 +92,6 @@ For the sake of this tutorial, we will start from scratch so delete everything a
 
 
 
-<pre>
-{% highlight lua %}
-  function Blueprint:Build()
-    -- do this once when the object is created
-    -- declare some variables
-    -- declare some functions
-  end
-
-
-  function Blueprint:Update()
-    --do this every frame (~60+ times a second)
-  end
-{% endhighlight %}
-</pre>
 
 {% highlight lua %}
   function Blueprint:Build()
