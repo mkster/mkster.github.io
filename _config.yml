@@ -8,7 +8,7 @@ url: "https://mkster.github.io/"
 twitter_username: 
 github_username:  mkster
 facebook_username:
-donation_link:  "https://mkster.github.io/"
+donation_link: 
 
 # Build settings
 markdown: kramdown
