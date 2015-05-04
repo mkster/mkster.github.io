@@ -4,7 +4,7 @@ title:      "A Quick Introduction to Lua Modding Planetoid Pioneers for Beginner
 subtitle:   ""
 date:       2015-05-04 12:00:00
 author:     "Max"
-header-img: "img/moddingPP/header2.png"
+header-img: "img/moddingPP/header.png"
 ---
 
 Welcome to the first of hopefully many tutorials that will teach you how to make amazing things inside the Planetoid Pioneers editor! I will start off with a very basic object, a grenade, which we will create using both the in-game editor and some introductory Lua scripting.
@@ -56,7 +56,7 @@ If you want to change something about an object you can open it in the editor (F
 
 <br>
 
-<img style="display: block; margin: 0 auto !important; width: 400px; " src="{{ site.baseurl }}/img/moddingPP/5.png">
+<img style="display: block; margin: 0 auto !important; width: 400px;" src="{{ site.baseurl }}/img/moddingPP/5.png">
 
 In addition to that you have different widows like the help window (F1), the sound window (F4) where you can select sounds and set the volume of the game or the blueprint library (F6) where you select blueprints and spawn or edit them.
 
