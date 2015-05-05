@@ -16,3 +16,7 @@ highlighter: pygments
 permalink: none
 paginate: 3
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md", "Gemfile", "Gemfile.lock", "unused_pages"]
+
+jekyll-redirect-from
+gems:
+  - jekyll-redirect-from

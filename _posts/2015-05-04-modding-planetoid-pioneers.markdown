@@ -5,6 +5,8 @@ subtitle:   "A Quick Introduction to Lua Modding Planetoid Pioneers for Beginner
 date:       2015-05-04 12:00:00
 author:     "Max"
 header-img: "img/moddingPP/header.png"
+redirect_from:
+  - 2015/05/04/modding-planetoid-pioneers/
 ---
 
 Welcome to the first of hopefully many tutorials that will teach you how to make amazing things inside the Planetoid Pioneers editor! I will start off with a very basic object, a grenade, which we will create using both the in-game editor and some introductory Lua scripting.
