@@ -95,7 +95,7 @@ To save that time, change your scene for faster testing. To do so save the scene
 ##Lua Scripting for Crush2D
 <img src="{{ site.baseurl }}/img/moddingPP/Tool Grenade ns.png" height="0" width="150" align="right">
 
-If you skipped the previous part you can download the blueprint you should now have here (drag the image into PPTest/Blueprints).
+If you skipped the previous part you can download the blueprint you should now have here, just drag the image right into your game.
 First set the interpreter in Project -> Lua Interpreter -> Crush2D. This will give you code snippets for the all the C2D functions.
 
 <img src="{{ site.baseurl }}/img/moddingPP/11.png" align = "middle">
@@ -329,7 +329,7 @@ We also check for the timer itself first because calling timer:TimeIsUp() on a n
 
 <img src="{{ site.baseurl }}/img/moddingPP/Tool Grenade.png" height="0" width="150" align="right">
 
-And thats it. Hopefully everything is working for you, if not you can check out [the whole source code](https://github.com/mkster/PP-Blueprints/blob/master/Tool%20Grenade) or download the complete blueprint of the grenade here (drag the image into PPTest/Blueprints).
+And thats it. Hopefully everything is working for you, if not you can check out [the whole source code](https://github.com/mkster/PP-Blueprints/blob/master/Tool%20Grenade) or download the complete blueprint of the grenade here (drag the image into your game).
 
 Make sure to share your blueprint!
 (You will find it in PPTest/Blueprints)
@@ -371,7 +371,7 @@ Place your breakpoint by clicking next to the line number or pressing F9. This w
 
 You can now inspect variables and step through the code line by line and into each function as well if you want.
 
-<img src="{{ site.baseurl }}/img/moddingPP/20.png">
+<img src="{{ site.baseurl }}/img/moddingPP/20.png" align="right">
 
 To see the contents of your variables you can open the stack (Ctrl + Shift + S) and see everything, add single variables to the watch to keep track of them or hover over one to inspect it quickly.
 
