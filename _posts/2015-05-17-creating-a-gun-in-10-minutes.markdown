@@ -60,7 +60,7 @@ Just drag and drop. Repeat this step whenever you change something.
 -->
 
 ##Create a gun
-<img src="{{ site.baseurl }}/img/inMinutes/newBP.png" height="0" width="160"  align="right">
+<img src="{{ site.baseurl }}/img/inMinutes/newBP.PNG" height="0" width="160"  align="right">
 
 First follow these steps to create a new gun.
 <br>
