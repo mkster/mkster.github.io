@@ -5,6 +5,9 @@ subtitle:   "A Quick Introduction to Modding Planetoid Pioneers for Beginners"
 date:       2015-05-20 12:00:00
 author:     "Max"
 header-img: "img/inMinutes/header.png"
+redirect_from:
+  - creating-a-gun-in-less-then-10-minutes/
+  - 2015/05/20/creating-a-gun-in-less-then-10-minutes/
 ---
 
 
