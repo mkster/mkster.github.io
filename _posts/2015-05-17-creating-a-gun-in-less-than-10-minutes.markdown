@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "How to Make Your First Gun in less then 10 Minutes"
+title:      "How to Make Your First Gun in less than 10 Minutes"
 subtitle:   "A Quick Introduction to Modding Planetoid Pioneers for Beginners"
 date:       2015-05-20 12:00:00
 author:     "Max"
