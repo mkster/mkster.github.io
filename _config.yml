@@ -2,7 +2,7 @@
 title: Max's Blog
 header-img: img/post-bg-04.jpg
 email: max.kriester+githubio@gmail.com
-description: "Now launching!"
+description: ""
 baseurl: ""
 url: "https://mkster.github.io/"
 twitter_username: 
@@ -16,6 +16,5 @@ highlighter: pygments
 permalink: none
 paginate: 3
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md", "Gemfile", "Gemfile.lock", "unused_pages"]
-
 gems:
   - jekyll-redirect-from
