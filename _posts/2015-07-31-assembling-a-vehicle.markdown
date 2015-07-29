@@ -9,7 +9,7 @@ redirect_from:
   -tutvehicle/
 ---
 
-In this tutorial we will assemble a working blueprint from this picture drawn by our artist [Arne](www.androidarts.com).
+In this tutorial we will assemble a working blueprint from this picture drawn by our artist [Arne](http://androidarts.com).
 <img src="{{ site.baseurl }}/img/assembling/ClimberSpider.png" align = "middle">
 
 This is the source image I assembled from this which has to have a transparent background and all flipped parts on it.
