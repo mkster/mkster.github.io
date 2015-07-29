@@ -9,6 +9,7 @@ redirect_from:
   - creating-a-gun-in-less-then-10-minutes/
   - creating-a-gun-in-less-then-10-minutes.html/
   - 2015/05/20/creating-a-gun-in-less-then-10-minutes/
+  - tutgun/
 ---
 
 
