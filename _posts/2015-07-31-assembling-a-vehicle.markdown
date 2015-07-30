@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      "Assembling a vehicle"
+title:      "Assembling a Vehicle"
 subtitle:   "A Quick Introduction to Modding Planetoid Pioneers for Beginners"
-date:       2015-07-31 12:00:00
+date:       2015-07-29 12:00:00
 author:     "Max"
 header-img: "img/assembling/spider4.PNG"
 redirect_from:
-  -tutvehicle/
+  - tutvehicle/
 ---
 
 In this tutorial we will assemble a working blueprint from this picture drawn by our artist [Arne](http://androidarts.com).
@@ -61,6 +61,7 @@ Set a material, the thickness(depth) and the hollowness of each objects to defin
 <img src="{{ site.baseurl }}/img/assembling/8.PNG" align = "middle">
 <br>
 
-This is it. You should now have a mountable vehicle. The next step is to define poses to animate it and write a Lua script to make it drivable.
+This is it. You should now have a mountable vehicle. Check out [the next tutorial](animating-with-poses.html).to find out how define poses to animate it and write a Lua script to make it drivable.
+
 <br>
 <img src="{{ site.baseurl }}/img/assembling/spider5.PNG" align = "middle">
