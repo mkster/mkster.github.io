@@ -176,7 +176,8 @@ function Blueprint:Update()
 end
 {% endhighlight %}
 
-And that's it. With this system esablished it should be fairly easy to add new additional animations to your blueprint.
+And that's it. With this system established it should be fairly easy to add new additional animations to your blueprint. Don't forget to share your creation in #pp-blueprints.
+To improve the gait of this robot further an additional joint connection between the feet and legs can be added.
 <br>
 
 <img src="{{ site.baseurl }}/img/poses/spiderwalk2.gif" align = "middle">
