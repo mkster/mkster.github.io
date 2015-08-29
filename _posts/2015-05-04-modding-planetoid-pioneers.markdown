@@ -360,7 +360,7 @@ If you have trouble finding the cause of your error you might want to use the de
 <img src="{{ site.baseurl }}/img/moddingPP/17.png" align="right">
 
 
-First make sure to start PP via PPTest\Planetoid Pioneers Lua Debug No Intro.bat which will enable debugging for you. If you have ZeroBrane open it will go into debug mode right away if not you have to open a script first or press the button marked on the right.
+To start debugging press the button marked on the right.
 
 Now that it is in debug mode ZeroBrane will show you which line you are with the green pointer. Press the marked button or F5 to keep it running.
 
