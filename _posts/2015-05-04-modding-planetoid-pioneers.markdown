@@ -118,7 +118,7 @@ end
 
 
 function Blueprint:Update()
-  --do this every frame (~60+ times a second)
+  --do this every frame (many times a second)
 end
 {% endhighlight %}
 
@@ -220,8 +220,8 @@ self.ToolLeftButtonRelease = function()
 	--find the one and only movable object of this assembly
 	local grenade = self:GetMOByName("Bomb")
 
-	--translate the mouse coordinate to the coordinate system of the grenade
-	local vel = grenade:GetLocalPointFromWorldPoint(self.aim_point)
+	--calculate the difference between mouse and grenade position to apply it as velocity
+	local vel = self.aim_point - grenade:GetPosition()
 end
 {% endhighlight %}
 
@@ -247,8 +247,8 @@ Now we need to normalize the vector to our throwingPower (unit vector * 20). Whi
 	--find the one and only movable object of this assembly
 	local grenade = self:GetMOByName("Bomb")
 
-	--translate the mouse coordinate to the coordinate system of the grenade
-	local vel = grenade:GetLocalPointFromWorldPoint(self.aim_point)
+	--calculate the difference between mouse and grenade position to apply it as velocity
+	local vel = self.aim_point - grenade:GetPosition()
 
 	--normalize the vector,
 	--so it keeps its direction but has a magnitude of our throwing power
@@ -318,7 +318,7 @@ Finally we frequently check in Blueprint:Update() if the time is over.
 
 {% highlight lua %}
 function Blueprint:Update()
-	--do this every frame (~60+ times a second)
+	--do this every frame (many times a second)
 
 	if self.timer and self.timer:TimeIsUp() then
 		self.explode()
