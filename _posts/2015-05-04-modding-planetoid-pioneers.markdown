@@ -226,13 +226,13 @@ end
 {% endhighlight %}
 
 
-All this is part of our ToolLeftButtonRelease() function. The coordinates we have stored in self.aim_point are expressed in the coordinate system of the whole scene. We need to translate this to the local coordinate system of the grenade which has the grenade itself as the center.
+All this is part of our ToolLeftButtonRelease() function. To calculate the velocity vector pointing away from the grenade to the mouse we substract both values. 
 
 This is what our vector in the coordinate system of the grenade looks like.
 
 <img src="{{ site.baseurl }}/img/moddingPP/14.png">
 
-Now we need to normalize the vector to our throwingPower (unit vector * 20). Which means we set the length of the vector to throwingPower so we can use this vector as our velocity for the unmounted grenade.
+Now we need to normalize the vector to our throwingPower. Which means we set the length of the vector to throwingPower so we can use this vector as our velocity for the unmounted grenade.
 
 <img src="{{ site.baseurl }}/img/moddingPP/15.png">
 
@@ -361,6 +361,7 @@ If you have trouble finding the cause of your error you might want to use the de
 
 
 To start debugging press the button marked on the right.
+<br>
 
 Now that it is in debug mode ZeroBrane will show you which line you are with the green pointer. Press the marked button or F5 to keep it running.
 
