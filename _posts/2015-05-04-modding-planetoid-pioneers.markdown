@@ -163,7 +163,7 @@ To do so we need to Unmount (destroy the joints between) the two assemblies. Thi
 {% highlight lua %}
 self.ToolLeftButtonRelease = function()
 	--find the pioneer who is carrying the grenade
-	local pioneer = self:GetMountedToAssemblyByAT(PP.type_pioneer)
+	local pioneer = self:GetMountedToAssemblyByAT("Pioneer")
 
 	--destroy all jointed connections between both assemblies
 	self:UnmountFromAssembly(pioneer)
@@ -173,7 +173,7 @@ end
 
 To find the Pioneer we will use a function which returns what our assembly, the grenade, is mounted to.
 
-{% highlight lua %}self:GetMountedToAssemblyByAT(PP.type_pioneer){% endhighlight %}
+{% highlight lua %}self:GetMountedToAssemblyByAT("Pioneer"){% endhighlight %}
 
 Now we just need to unmount the grenade from the Pioneer via
 self:UnmountFromAssembly(Pioneer)
