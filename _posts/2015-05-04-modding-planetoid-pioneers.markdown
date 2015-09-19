@@ -332,7 +332,7 @@ We also check for the timer itself first because calling timer:TimeIsUp() on a n
 
 <img src="{{ site.baseurl }}/img/moddingPP/Tool Grenade.png" height="0" width="150" align="right">
 
-And thats it. Hopefully everything is working for you, if not you can check out [the whole source code](https://github.com/mkster/PP-Blueprints/blob/master/Tool%20Grenade) or download the complete blueprint of the grenade here (drag the image into your game).
+And thats it. Hopefully everything is working for you, if not you can check out [the whole source code](https://github.com/mkster/PP-Blueprints/blob/master/Tool%20Grenade.lua) or download the complete blueprint of the grenade here (drag the image into your game).
 
 Make sure to share your blueprint!
 (You will find it in PPTest/Blueprints)
