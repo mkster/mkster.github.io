@@ -212,7 +212,7 @@ Now we need to find the velocity which we have to give the object so it flys to 
 {% highlight lua %}
 self.ToolLeftButtonRelease = function()
 	--find the pioneer who is carrying the grenade
-	local pioneer = self:GetMountedToAssemblyByAT(PP.type_pioneer)
+	local pioneer = self:GetMountedToAssemblyByAT("Pioneer")
 
 	--destroy all jointed connections between both assemblies
 	self:UnmountFromAssembly(pioneer)
@@ -239,7 +239,7 @@ Now we need to normalize the vector to our throwingPower. Which means we set the
 {% highlight lua %}
 	self.ToolLeftButtonRelease = function()
 	--find the pioneer who is carrying the grenade
-	local pioneer = self:GetMountedToAssemblyByAT(PP.type_pioneer)
+	local pioneer = self:GetMountedToAssemblyByAT("Pioneer")
 
 	--destroy all jointed connections between both assemblies
 	self:UnmountFromAssembly(pioneer)
